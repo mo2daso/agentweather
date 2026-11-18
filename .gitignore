@@ -1,0 +1,47 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Local credentials (examples may be committed)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+credentials.json
+*service-account*.json
+*.pem
+*.key
+
+# Local data, models, logs, and scratch output
+/data/
+/models/
+/artifacts/
+/logs/
+/tmp/
+*.log
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.h5
+*.keras
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local reference document
+/AgentWeather_Project_Brief.pdf
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,290 @@
+{
+  "generated_at_utc": "2026-11-18T15:04:12.609484+00:00",
+  "city": "Faisalabad",
+  "start": "2023-01-01",
+  "end": "2025-12-31",
+  "timezone": "UTC",
+  "expected_hours": 26304,
+  "leap_day_expected_hours": 24,
+  "sources": {
+    "weather": {
+      "rows": 26304,
+      "unique_hours": 26304,
+      "duplicate_hours": 0,
+      "missing_hours": 0,
+      "unexpected_hours": 0,
+      "sorted": true,
+      "leap_day_hours": 24,
+      "variables": {
+        "temperature_2m": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 0,
+          "longest_zero_hours": 0,
+          "min": 2.3,
+          "max": 45.4,
+          "mean": 24.958880778588806,
+          "median": 26.5,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 5,
+          "max_hourly_change": 8.599999999999998,
+          "q1": 18.4,
+          "q3": 31.8,
+          "iqr_flags": 0,
+          "unit": "\u00b0C"
+        },
+        "relative_humidity_2m": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 0,
+          "longest_zero_hours": 0,
+          "min": 9,
+          "max": 100,
+          "mean": 63.29740723844282,
+          "median": 65.0,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 11,
+          "max_hourly_change": 34,
+          "q1": 49.0,
+          "q3": 79.0,
+          "iqr_flags": 0,
+          "unit": "%"
+        },
+        "precipitation": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 24243,
+          "longest_zero_hours": 2051,
+          "min": 0.0,
+          "max": 17.8,
+          "mean": 0.05130778588807786,
+          "median": 0.0,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 2051,
+          "max_hourly_change": 9.6,
+          "q1": null,
+          "q3": null,
+          "iqr_flags": null,
+          "unit": "mm"
+        },
+        "wind_speed_10m": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 9,
+          "longest_zero_hours": 1,
+          "min": 0.0,
+          "max": 8.22,
+          "mean": 2.052614811435523,
+          "median": 2.01,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 4,
+          "max_hourly_change": 4.91,
+          "q1": 1.43,
+          "q3": 2.55,
+          "iqr_flags": 669,
+          "unit": "m/s"
+        },
+        "wind_direction_10m": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 0,
+          "longest_zero_hours": 0,
+          "min": 1,
+          "max": 360,
+          "mean": null,
+          "median": null,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 4,
+          "max_hourly_change": 180,
+          "q1": null,
+          "q3": null,
+          "iqr_flags": null,
+          "unit": "\u00b0"
+        }
+      }
+    },
+    "air_quality": {
+      "rows": 26304,
+      "unique_hours": 26304,
+      "duplicate_hours": 0,
+      "missing_hours": 0,
+      "unexpected_hours": 0,
+      "sorted": true,
+      "leap_day_hours": 24,
+      "variables": {
+        "us_aqi": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 0,
+          "longest_zero_hours": 0,
+          "min": 66,
+          "max": 437,
+          "mean": 155.80980079075425,
+          "median": 152.0,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 21,
+          "max_hourly_change": 44,
+          "q1": 119.0,
+          "q3": 175.0,
+          "iqr_flags": 1492,
+          "unit": "USAQI"
+        },
+        "pm2_5": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 0,
+          "longest_zero_hours": 0,
+          "min": 3.4,
+          "max": 461.9,
+          "mean": 74.14881006690997,
+          "median": 54.0,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 3,
+          "max_hourly_change": 159.2,
+          "q1": 36.9,
+          "q3": 88.2,
+          "iqr_flags": 2283,
+          "unit": "\u03bcg/m\u00b3"
+        },
+        "pm10": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 0,
+          "longest_zero_hours": 0,
+          "min": 3.4,
+          "max": 741.3,
+          "mean": 108.64943734793188,
+          "median": 86.1,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 3,
+          "max_hourly_change": 282.2,
+          "q1": 58.0,
+          "q3": 137.4,
+          "iqr_flags": 1391,
+          "unit": "\u03bcg/m\u00b3"
+        },
+        "uv_index": {
+          "rows": 26304,
+          "available": 26304,
+          "missing": 0,
+          "longest_missing_hours": 0,
+          "zero_hours": 13692,
+          "longest_zero_hours": 15,
+          "min": 0.0,
+          "max": 11.05,
+          "mean": 1.2911914537712896,
+          "median": 0.0,
+          "hard_bound_flags": 0,
+          "review_bound_flags": 0,
+          "longest_constant_hours": 15,
+          "max_hourly_change": 4.6000000000000005,
+          "q1": null,
+          "q3": null,
+          "iqr_flags": null,
+          "unit": ""
+        }
+      }
+    }
+  },
+  "missing_chunks": [],
+  "hard_bounds": {
+    "relative_humidity_2m": [
+      0,
+      100
+    ],
+    "precipitation": [
+      0,
+      null
+    ],
+    "wind_speed_10m": [
+      0,
+      null
+    ],
+    "wind_direction_10m": [
+      0,
+      360
+    ],
+    "us_aqi": [
+      0,
+      null
+    ],
+    "pm2_5": [
+      0,
+      null
+    ],
+    "pm10": [
+      0,
+      null
+    ],
+    "uv_index": [
+      0,
+      null
+    ]
+  },
+  "review_bounds": {
+    "temperature_2m": [
+      -20,
+      55
+    ],
+    "precipitation": [
+      0,
+      100
+    ],
+    "wind_speed_10m": [
+      0,
+      40
+    ],
+    "us_aqi": [
+      0,
+      500
+    ],
+    "pm2_5": [
+      0,
+      1000
+    ],
+    "pm10": [
+      0,
+      1500
+    ],
+    "uv_index": [
+      0,
+      20
+    ]
+  },
+  "interpretation": "Coverage audit of modelled/reanalysis series; not independent station validation.",
+  "joined_dataset_sha256": "ae01bb6466e12b1d7f760633b6b68cb6649884c67a365e3c34c04484550ae95c",
+  "joined_complete_rows": 26304,
+  "coverage_complete": true,
+  "monthly_iqr_flags": {
+    "temperature_2m": 28,
+    "relative_humidity_2m": 23,
+    "wind_speed_10m": 576,
+    "us_aqi": 539,
+    "pm2_5": 497,
+    "pm10": 601
+  }
+}

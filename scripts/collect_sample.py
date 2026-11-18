@@ -5,8 +5,10 @@ import csv
 from datetime import date, datetime, timedelta, timezone
 import json
 import math
+from http.client import IncompleteRead
 from pathlib import Path
 import sys
+import ssl
 import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -46,7 +48,7 @@ def fetch_json(url):
             if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
                 detail = error.read().decode("utf-8", errors="replace")[:500]
                 raise ValueError(f"HTTP {error.code}: {detail}") from error
-        except (URLError, TimeoutError) as error:
+        except (URLError, TimeoutError, ConnectionError, ssl.SSLError, IncompleteRead) as error:
             if attempt == 2:
                 raise ValueError(f"Could not reach data source: {error}") from error
         time.sleep(2 ** attempt)
@@ -81,7 +83,7 @@ def validate_hourly(payload, variables, start, end):
     return hourly
 
 
-def collect(source_name, start, end, output):
+def collect(source_name, start, end, output, verbose=True):
     source = SOURCES[source_name]
     params = {
         "latitude": LATITUDE, "longitude": LONGITUDE,
@@ -128,9 +130,10 @@ def collect(source_name, start, end, output):
     (folder / "summary.json").write_text(
         json.dumps(summary, indent=2, allow_nan=False), encoding="utf-8"
     )
-    print(f"{source_name}: saved {summary['row_count']} rows to {folder}")
-    for variable, stats in coverage.items():
-        print(f"  {variable}: {stats['available']} available, {stats['missing']} missing")
+    if verbose:
+        print(f"{source_name}: saved {summary['row_count']} rows to {folder}")
+        for variable, stats in coverage.items():
+            print(f"  {variable}: {stats['available']} available, {stats['missing']} missing")
     return all(stats["available"] > 0 for stats in coverage.values())
 
 

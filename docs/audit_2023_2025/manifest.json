@@ -1,0 +1,3854 @@
+[
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-01-01&end_date=2023-01-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:26.541778+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-01-01T00:00Z",
+    "end": "2023-01-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 2.3,
+        "max": 21.7
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 24,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.1,
+        "max": 4.02
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "9846345b3d823e44cd79c55c18a40c359831f551308742ab5fd475ae20b881a9"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-02-01&end_date=2023-02-28&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:34.864381+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 672,
+    "start": "2023-02-01T00:00Z",
+    "end": "2023-02-28T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 672,
+        "missing": 0,
+        "min": 7.5,
+        "max": 29.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 672,
+        "missing": 0,
+        "min": 17,
+        "max": 95
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 672,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.6
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 672,
+        "missing": 0,
+        "min": 0.2,
+        "max": 5.81
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 672,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "2c6372cb1410786d920e4559ab43999a2e9c76ec1a70aa0e90ea05f918cbdd66"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-03-01&end_date=2023-03-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:36.217437+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-03-01T00:00Z",
+    "end": "2023-03-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 14.2,
+        "max": 32.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 26,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 6.2
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.1,
+        "max": 6.53
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "fe7ea2fe78df141c9c0b70f6f9ee029916b2a771c3cd92aa1fe76d0e6678876c"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-04-01&end_date=2023-04-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:26.539779+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-04-01T00:00Z",
+    "end": "2023-04-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 15.3,
+        "max": 38.4
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 16,
+        "max": 97
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 4.4
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 6.28
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "bdb58eb76c0cd456000891f35d072ab8f658618a6e84600c48b7edfcfafb8c39"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-05-01&end_date=2023-05-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:40.279996+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-05-01T00:00Z",
+    "end": "2023-05-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 19.1,
+        "max": 42.4
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 9,
+        "max": 95
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.2,
+        "max": 7.3
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "96c2ed3c7450f13eaa0fcc4a175d1a6ad9b4dad90f3d5ee1b5142f6b12e947db"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-06-01&end_date=2023-06-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:41.570743+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-06-01T00:00Z",
+    "end": "2023-06-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 19.9,
+        "max": 42.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 23,
+        "max": 96
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.0
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.1,
+        "max": 7.0
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 3,
+        "max": 360
+      }
+    },
+    "response_sha256": "efefbf88de16ec738af7ecf8db15a62e6409c0f3ce00cab9da9c7c80c08e6f44"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-07-01&end_date=2023-07-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:42.794464+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-07-01T00:00Z",
+    "end": "2023-07-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 25.2,
+        "max": 40.5
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 38,
+        "max": 97
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.4
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.22,
+        "max": 5.16
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 14,
+        "max": 360
+      }
+    },
+    "response_sha256": "8dafc8d017852ce2391d66f9471c276c95bb85c2b8081fbf53ed93a92947f2da"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-08-01&end_date=2023-08-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:44.690375+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-08-01T00:00Z",
+    "end": "2023-08-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 26.6,
+        "max": 40.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 39,
+        "max": 86
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 2.3
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.1,
+        "max": 5.8
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 6,
+        "max": 360
+      }
+    },
+    "response_sha256": "9cc9ec7e630e0b251b2de83f2e4fcb6b1908437d88339d6dd50b4a2b07730f4d"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-09-01&end_date=2023-09-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:28.375935+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-09-01T00:00Z",
+    "end": "2023-09-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 22.2,
+        "max": 39.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 37,
+        "max": 95
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.6
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.1,
+        "max": 6.01
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "e88275d741f19a21b43992514791d3ce95e6308a0ab4fde1372b8a9f3c03e9f3"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-10-01&end_date=2023-10-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:28.376934+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-10-01T00:00Z",
+    "end": "2023-10-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 16.3,
+        "max": 36.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 27,
+        "max": 96
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 2.6
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.1,
+        "max": 6.59
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 3,
+        "max": 360
+      }
+    },
+    "response_sha256": "0f3dafad3d69d5e944d12f251886e1b82d28235d963a62c0b854621d2b8f1832"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-11-01&end_date=2023-11-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:49.997717+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-11-01T00:00Z",
+    "end": "2023-11-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 11.8,
+        "max": 30.1
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 40,
+        "max": 97
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 4.6
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.08
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 3,
+        "max": 360
+      }
+    },
+    "response_sha256": "b9a5b7e56088d1f5b83820b3b98385b02d1510509cd1ed0d6964997d761a8639"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2023-12-01&end_date=2023-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:52.357620+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-12-01T00:00Z",
+    "end": "2023-12-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 7.0,
+        "max": 25.1
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 38,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 2.2
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.2
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 3,
+        "max": 360
+      }
+    },
+    "response_sha256": "95798fcc923bd025c7dd95da0dbc810665d091be0c99fb51926cd2d620b498ce"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-01-01&end_date=2024-01-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:53.746405+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-01-01T00:00Z",
+    "end": "2024-01-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 3.5,
+        "max": 20.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 44,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.4
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.7
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 3,
+        "max": 360
+      }
+    },
+    "response_sha256": "81bfb4d9f74994d72b0689318cee55ac32b969947d5b3c42f55c8b19d249761e"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-02-01&end_date=2024-02-29&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:54.959626+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 696,
+    "start": "2024-02-01T00:00Z",
+    "end": "2024-02-29T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 696,
+        "missing": 0,
+        "min": 7.3,
+        "max": 25.7
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 696,
+        "missing": 0,
+        "min": 28,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 696,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.4
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 696,
+        "missing": 0,
+        "min": 0.1,
+        "max": 6.68
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 696,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "b62c023379a62c903879be299aad3295c9b30e366ba5ee87b99782887b9601a2"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-03-01&end_date=2024-03-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:29.754936+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-03-01T00:00Z",
+    "end": "2024-03-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 7.0,
+        "max": 32.7
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 26,
+        "max": 95
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 2.9
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.14,
+        "max": 6.14
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 3,
+        "max": 360
+      }
+    },
+    "response_sha256": "8e0cf5ae2d0986f741a286f1e6003bcd4b610e82c74cf960df6073f9473f8b4e"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-04-01&end_date=2024-04-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:58:57.768645+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-04-01T00:00Z",
+    "end": "2024-04-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 15.4,
+        "max": 38.8
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 14,
+        "max": 99
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.9
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.1,
+        "max": 7.18
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "054bb8beeebeb07b740a51667f77bef68c351e48f376a2cf9f43a3b39e45751e"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-05-01&end_date=2024-05-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:29.926838+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-05-01T00:00Z",
+    "end": "2024-05-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 15.7,
+        "max": 45.4
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 9,
+        "max": 77
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 2.9
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.22,
+        "max": 6.69
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "0101ea76fd61a79736e8a78cfa6eb4e5d3cb9b4110167fd5c8b4db68d8e904fa"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-06-01&end_date=2024-06-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:31.288744+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-06-01T00:00Z",
+    "end": "2024-06-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 22.8,
+        "max": 44.0
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 18,
+        "max": 89
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.2
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.14,
+        "max": 6.58
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "e7941250fc56f3a02685740ad0f3159942fa79f438ae985990d02abbede20544"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-07-01&end_date=2024-07-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:01.363722+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-07-01T00:00Z",
+    "end": "2024-07-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 24.3,
+        "max": 42.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 38,
+        "max": 93
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 6.9
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.11,
+        "max": 6.66
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 8,
+        "max": 357
+      }
+    },
+    "response_sha256": "2e1f3e4cb69dc6ca777bea24da2d961590d249014605426c6a8c322c07db5846"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-08-01&end_date=2024-08-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:02.618882+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-08-01T00:00Z",
+    "end": "2024-08-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 24.5,
+        "max": 37.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 49,
+        "max": 99
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 6.3
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.21,
+        "max": 6.4
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "e53c68160062ed534964011fbc4c1eac90dc88720c133b7a08bcad7edffc6acd"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-09-01&end_date=2024-09-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:31.111847+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-09-01T00:00Z",
+    "end": "2024-09-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 23.7,
+        "max": 38.7
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 37,
+        "max": 96
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.4
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.11,
+        "max": 5.25
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "b709071b98f02ab4ca7f616face0102c6a89de339941c7d2fb879341871d8d38"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-10-01&end_date=2024-10-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:33.326435+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-10-01T00:00Z",
+    "end": "2024-10-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 18.4,
+        "max": 36.5
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 32,
+        "max": 90
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.9
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.11,
+        "max": 4.38
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "4d430874ee61a714b0aed24f19c9d2b8f262705bb9bc2e83f8ad3c2a3de7de7e"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-11-01&end_date=2024-11-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:06.555716+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-11-01T00:00Z",
+    "end": "2024-11-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 11.6,
+        "max": 33.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 32,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.05,
+        "max": 4.24
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "76818ac36ee6cc6521e1cd9927aed463c75dbc7a6f9ebd9701390b93db413799"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2024-12-01&end_date=2024-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:07.879233+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-12-01T00:00Z",
+    "end": "2024-12-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 3.3,
+        "max": 25.3
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 23,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.3
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.1,
+        "max": 5.06
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "2b02da45546cfb206405b010cdea33dae27210d16bfe20f0f8f299cf65ab30d4"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-01-01&end_date=2025-01-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:32.577292+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-01-01T00:00Z",
+    "end": "2025-01-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 5.7,
+        "max": 24.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 21,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.1
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.15,
+        "max": 3.81
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "977f80a56a396f63e977734858a9d49eb8e9c4b159beb9f97b781a6070d73cbe"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-02-01&end_date=2025-02-28&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:11.687052+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 672,
+    "start": "2025-02-01T00:00Z",
+    "end": "2025-02-28T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 672,
+        "missing": 0,
+        "min": 7.5,
+        "max": 26.8
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 672,
+        "missing": 0,
+        "min": 22,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 672,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 672,
+        "missing": 0,
+        "min": 0.05,
+        "max": 5.8
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 672,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "baa66f8012bf1f1466e7b64e4a439361c7c5b776dce96dc0d74d0d5cfb70add3"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-03-01&end_date=2025-03-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:12.910903+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-03-01T00:00Z",
+    "end": "2025-03-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 9.2,
+        "max": 34.0
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 12,
+        "max": 96
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.9
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.1,
+        "max": 6.22
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "7e2dbf2723f132cc6d39ffa60cca011904b0436aba5b067090f5d594d0176282"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-04-01&end_date=2025-04-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:14.126616+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-04-01T00:00Z",
+    "end": "2025-04-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 18.7,
+        "max": 41.8
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 9,
+        "max": 71
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.11,
+        "max": 7.27
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "90f62db33d720636942234bb0ff5af1af9431f877bd597d762a9e83ff9bfbe3f"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-05-01&end_date=2025-05-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:15.443919+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-05-01T00:00Z",
+    "end": "2025-05-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 21.7,
+        "max": 43.8
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 21,
+        "max": 86
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 1.5
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.07,
+        "max": 7.73
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "f2ddf1e23a818da0b0c95dbb7aff68402a34c01d422d397d6ac7080fb181457c"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-06-01&end_date=2025-06-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:16.884671+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-06-01T00:00Z",
+    "end": "2025-06-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 23.2,
+        "max": 44.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 21,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.2
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.1,
+        "max": 5.83
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "6a0e7358a657384b14d7e833d4b5fd6abd1dfc667b11b2170399bb74c2662029"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-07-01&end_date=2025-07-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:18.260410+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-07-01T00:00Z",
+    "end": "2025-07-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 24.9,
+        "max": 40.8
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 43,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 17.8
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.21,
+        "max": 8.22
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 9,
+        "max": 357
+      }
+    },
+    "response_sha256": "efc1f2d9c3f1f277149c3a3d71dca092349a867ff7bd88c1483c4bd07ead9fb0"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-08-01&end_date=2025-08-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:19.496566+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-08-01T00:00Z",
+    "end": "2025-08-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 25.0,
+        "max": 39.1
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 41,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.3,
+        "max": 5.65
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 8,
+        "max": 354
+      }
+    },
+    "response_sha256": "4c57cf20f5a5b2e7363d4286efc6467e07aad676817cdf471fc04a6f09fae17f"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-09-01&end_date=2025-09-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:20.825404+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-09-01T00:00Z",
+    "end": "2025-09-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 24.6,
+        "max": 37.9
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 37,
+        "max": 95
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 4.7
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.3,
+        "max": 4.78
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 11,
+        "max": 360
+      }
+    },
+    "response_sha256": "14b95d847c55bea728d8021b49ae8eccbf7edd555dfada6ef44913c9e2d08ade"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-10-01&end_date=2025-10-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:22.104000+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-10-01T00:00Z",
+    "end": "2025-10-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 17.6,
+        "max": 36.6
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 28,
+        "max": 98
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 12.6
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.05,
+        "max": 5.06
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 4,
+        "max": 360
+      }
+    },
+    "response_sha256": "324f023b9a0a7523c0ca4fcb9b768f7996956be2f75fd63352f3fcefe151b89c"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-11-01&end_date=2025-11-30&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T15:00:34.047774+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-11-01T00:00Z",
+    "end": "2025-11-30T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 720,
+        "missing": 0,
+        "min": 6.4,
+        "max": 31.2
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 720,
+        "missing": 0,
+        "min": 21,
+        "max": 92
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 720,
+        "missing": 0,
+        "min": 0.11,
+        "max": 5.41
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 720,
+        "missing": 0,
+        "min": 1,
+        "max": 360
+      }
+    },
+    "response_sha256": "e36b9680c70b5bb48f4ec7aaca49805397c28699d98e003d5aac0cdea756fe0f"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "weather",
+    "data_kind": "ERA5 reanalysis (not a local station observation)",
+    "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-12-01&end_date=2025-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_direction_10m&timezone=UTC&models=era5&wind_speed_unit=ms",
+    "retrieved_at_utc": "2026-11-18T14:59:24.890369+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.5,
+      "longitude": 73.0
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-12-01T00:00Z",
+    "end": "2025-12-31T23:00Z",
+    "coverage": {
+      "temperature_2m": {
+        "unit": "\u00b0C",
+        "available": 744,
+        "missing": 0,
+        "min": 5.9,
+        "max": 25.0
+      },
+      "relative_humidity_2m": {
+        "unit": "%",
+        "available": 744,
+        "missing": 0,
+        "min": 27,
+        "max": 100
+      },
+      "precipitation": {
+        "unit": "mm",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 0.6
+      },
+      "wind_speed_10m": {
+        "unit": "m/s",
+        "available": 744,
+        "missing": 0,
+        "min": 0.11,
+        "max": 3.51
+      },
+      "wind_direction_10m": {
+        "unit": "\u00b0",
+        "available": 744,
+        "missing": 0,
+        "min": 2,
+        "max": 360
+      }
+    },
+    "response_sha256": "c6b0a1f92b3b064c914c8c913138da9ab5da84c9ed07927e49166212b49caef0"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-01-01&end_date=2023-01-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:33.889892+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-01-01T00:00Z",
+    "end": "2023-01-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 93,
+        "max": 288
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 17.4,
+        "max": 282.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 26.4,
+        "max": 403.3
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.65
+      }
+    },
+    "response_sha256": "5e5a8134c16069c6d48847105b387bc4499eb9090c54f81524baab2c16ad4e8f"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-02-01&end_date=2023-02-28&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:35.602161+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 672,
+    "start": "2023-02-01T00:00Z",
+    "end": "2023-02-28T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 672,
+        "missing": 0,
+        "min": 83,
+        "max": 211
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 672,
+        "missing": 0,
+        "min": 10.1,
+        "max": 185.3
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 672,
+        "missing": 0,
+        "min": 16.8,
+        "max": 273.8
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 672,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.1
+      }
+    },
+    "response_sha256": "3e3387dffaa3069727582c09ed2a8191c6eaa91ccba05746b35266ccc4ce1b18"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-03-01&end_date=2023-03-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:38.506936+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-03-01T00:00Z",
+    "end": "2023-03-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 81,
+        "max": 164
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 14.1,
+        "max": 119.7
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 22.9,
+        "max": 172.3
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 7.0
+      }
+    },
+    "response_sha256": "d5440ec031abf1e08befddd3bb26e15fff37c466a08a95ea4aa390e900d91675"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-04-01&end_date=2023-04-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:39.794263+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-04-01T00:00Z",
+    "end": "2023-04-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 72,
+        "max": 186
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 6.1,
+        "max": 109.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 9.1,
+        "max": 156.0
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.95
+      }
+    },
+    "response_sha256": "8482fc29dedd2f9fb1a4f2f8fc5548fd61c81f3dd0adaac04ecc7c418694df05"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-05-01&end_date=2023-05-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:41.483794+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-05-01T00:00Z",
+    "end": "2023-05-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 71,
+        "max": 191
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 8.1,
+        "max": 79.9
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 12.9,
+        "max": 122.0
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 9.6
+      }
+    },
+    "response_sha256": "b7398155b8a3ac801d81201920045bce4a54caea78db955b57414167c5cc33fa"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-06-01&end_date=2023-06-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:42.752488+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-06-01T00:00Z",
+    "end": "2023-06-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 81,
+        "max": 193
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 15.8,
+        "max": 97.8
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 26.7,
+        "max": 141.1
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 9.3
+      }
+    },
+    "response_sha256": "e20bec156da7b6a7139c432d3ffe7137a973779d67bab538c24734b4579d4e79"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-07-01&end_date=2023-07-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:46.212760+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-07-01T00:00Z",
+    "end": "2023-07-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 75,
+        "max": 201
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 15.0,
+        "max": 114.1
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 21.4,
+        "max": 214.2
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 9.35
+      }
+    },
+    "response_sha256": "d6f62eabb9511a15784629eeebaac0331ac61b40d61d0a487ddf415a03d2ba51"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-08-01&end_date=2023-08-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:46.537217+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-08-01T00:00Z",
+    "end": "2023-08-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 98,
+        "max": 188
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 25.0,
+        "max": 109.4
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 38.2,
+        "max": 377.2
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 9.55
+      }
+    },
+    "response_sha256": "43df564299f8eb2019b6c95cf6003bc5b6436b462a6ff468d245d18f90caa6f7"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-09-01&end_date=2023-09-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:48.683793+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-09-01T00:00Z",
+    "end": "2023-09-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 66,
+        "max": 201
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 9.9,
+        "max": 107.6
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 14.0,
+        "max": 184.4
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.75
+      }
+    },
+    "response_sha256": "9d0874620f020fe2ca945eb50ba481de49c66d447f2bf081e648765fac01e347"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-10-01&end_date=2023-10-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:51.142519+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-10-01T00:00Z",
+    "end": "2023-10-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 86,
+        "max": 202
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 21.7,
+        "max": 163.9
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 32.5,
+        "max": 259.8
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 7.55
+      }
+    },
+    "response_sha256": "1380292bbc14abd39ede00f856489a7f5c017bdd46082010d3242c07867f90d8"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-11-01&end_date=2023-11-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:51.559417+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2023-11-01T00:00Z",
+    "end": "2023-11-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 122,
+        "max": 262
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 20.8,
+        "max": 228.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 31.1,
+        "max": 361.4
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 4.15
+      }
+    },
+    "response_sha256": "8f85d8722ae5cb0c7b2b208913d4b1bf224db99a7c1bb569a0a32d2ce9a2aa38"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2023-12-01&end_date=2023-12-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:52.607980+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2023-12-01T00:00Z",
+    "end": "2023-12-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 151,
+        "max": 319
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 26.2,
+        "max": 348.3
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 38.1,
+        "max": 499.2
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.25
+      }
+    },
+    "response_sha256": "01dedb709df4a66e8f7bf46924b7c64a117b2ed60c2971c7f964896a7441b24c"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-01-01&end_date=2024-01-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:53.966131+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-01-01T00:00Z",
+    "end": "2024-01-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 172,
+        "max": 312
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 14.7,
+        "max": 366.0
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 22.2,
+        "max": 527.1
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 2.95
+      }
+    },
+    "response_sha256": "d40357c303cc1f4aba28737b9fdc134a7f30fd3efbc42d92a575df8e75c8c5d0"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-02-01&end_date=2024-02-29&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:55.341597+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 696,
+    "start": "2024-02-01T00:00Z",
+    "end": "2024-02-29T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 696,
+        "missing": 0,
+        "min": 96,
+        "max": 206
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 696,
+        "missing": 0,
+        "min": 13.9,
+        "max": 193.7
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 696,
+        "missing": 0,
+        "min": 22.6,
+        "max": 278.5
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 696,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.85
+      }
+    },
+    "response_sha256": "78d3dc8a145807b6e26a97960f8e22805d356cc9bc775f6f54de3378085cc047"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-03-01&end_date=2024-03-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:56.654887+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-03-01T00:00Z",
+    "end": "2024-03-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 73,
+        "max": 161
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 11.1,
+        "max": 113.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 18.9,
+        "max": 202.6
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 7.75
+      }
+    },
+    "response_sha256": "1279fc9750a20cc02c4726996101977118f67b671faf51be94edea4c8fe7c061"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-04-01&end_date=2024-04-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:57.999525+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-04-01T00:00Z",
+    "end": "2024-04-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 73,
+        "max": 169
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 7.8,
+        "max": 87.5
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 12.3,
+        "max": 206.8
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.4
+      }
+    },
+    "response_sha256": "601a6d0e5e999525d5193be72c58672130200d79d7dc1cd989b1abac0fadc14d"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-05-01&end_date=2024-05-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:58:59.264077+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-05-01T00:00Z",
+    "end": "2024-05-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 74,
+        "max": 214
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 6.7,
+        "max": 99.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 9.5,
+        "max": 269.2
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 11.05
+      }
+    },
+    "response_sha256": "c26a8218f3ee6ff1ee21bf21467a9f673fb16a99e5fe5fd70cc256b742c7b698"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-06-01&end_date=2024-06-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:00.536147+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-06-01T00:00Z",
+    "end": "2024-06-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 85,
+        "max": 205
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 10.7,
+        "max": 102.0
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 20.5,
+        "max": 325.0
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 10.2
+      }
+    },
+    "response_sha256": "5bbc97afcf6717211526c84302759bbc32d35a91efdb7dde6f22ed7b2b4f7c0f"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-07-01&end_date=2024-07-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:02.797778+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-07-01T00:00Z",
+    "end": "2024-07-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 98,
+        "max": 206
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 17.2,
+        "max": 138.3
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 26.4,
+        "max": 314.8
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.8
+      }
+    },
+    "response_sha256": "c5384bb991c8954fb555cd80fe731ea18d96ee16bc6c7ac33dcb391dbc0d9b14"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-08-01&end_date=2024-08-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:03.707257+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-08-01T00:00Z",
+    "end": "2024-08-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 71,
+        "max": 204
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 10.6,
+        "max": 112.0
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 15.3,
+        "max": 179.7
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.3
+      }
+    },
+    "response_sha256": "daec60fc660569f9dbc1b4afd8d81f067ca2307035f219ec3a3bc480376ad48f"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-09-01&end_date=2024-09-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:05.198793+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-09-01T00:00Z",
+    "end": "2024-09-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 92,
+        "max": 206
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 12.9,
+        "max": 122.9
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 18.4,
+        "max": 230.5
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.2
+      }
+    },
+    "response_sha256": "3ed3d90d1da86acd2b924b6c1d41e85f8789988977c44f401aa93fdb2b434024"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-10-01&end_date=2024-10-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:05.894618+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-10-01T00:00Z",
+    "end": "2024-10-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 120,
+        "max": 186
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 18.6,
+        "max": 127.6
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 31.8,
+        "max": 221.2
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 6.8
+      }
+    },
+    "response_sha256": "a9a752f458ef86b7830cf6209ccc3d1a64e02e7db0cc57b5aede9c8760ee5c62"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-11-01&end_date=2024-11-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:07.359531+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2024-11-01T00:00Z",
+    "end": "2024-11-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 121,
+        "max": 358
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 12.8,
+        "max": 341.8
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 13.6,
+        "max": 376.3
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.5
+      }
+    },
+    "response_sha256": "164eb0eff92d15ef103b365c735bec1c0b2b181e427354d24e7b79a9227d2caa"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2024-12-01&end_date=2024-12-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:10.471484+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2024-12-01T00:00Z",
+    "end": "2024-12-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 119,
+        "max": 383
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 14.2,
+        "max": 417.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 15.7,
+        "max": 425.6
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.5
+      }
+    },
+    "response_sha256": "c0530ab81286a081834130134d0d9cfaaca9b0a94c5b523ac3e557322c9ef1b8"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-01-01&end_date=2025-01-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:10.468486+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-01-01T00:00Z",
+    "end": "2025-01-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 137,
+        "max": 368
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 16.5,
+        "max": 461.9
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 18.3,
+        "max": 464.7
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 4.2
+      }
+    },
+    "response_sha256": "5efe8556bc76a498e4fcac9d5e5033e5e0b1e4d2cdfbc35fb6ca1d1ac0b0f40b"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-02-01&end_date=2025-02-28&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:11.671061+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 672,
+    "start": "2025-02-01T00:00Z",
+    "end": "2025-02-28T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 672,
+        "missing": 0,
+        "min": 103,
+        "max": 239
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 672,
+        "missing": 0,
+        "min": 11.4,
+        "max": 281.3
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 672,
+        "missing": 0,
+        "min": 14.8,
+        "max": 286.8
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 672,
+        "missing": 0,
+        "min": 0.0,
+        "max": 5.15
+      }
+    },
+    "response_sha256": "204ae0a5e19b16ddde5571682a7976ec94130ce8d6e65b819b8e9af5f3547328"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-03-01&end_date=2025-03-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:13.250706+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-03-01T00:00Z",
+    "end": "2025-03-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 70,
+        "max": 190
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 3.4,
+        "max": 145.8
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 3.4,
+        "max": 150.9
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.65
+      }
+    },
+    "response_sha256": "1b4664727bc486a434bc093085f70ad9180f928bc024be269d8caebe878b62ad"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-04-01&end_date=2025-04-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:14.427897+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-04-01T00:00Z",
+    "end": "2025-04-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 79,
+        "max": 212
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 4.2,
+        "max": 120.6
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 5.0,
+        "max": 384.6
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.95
+      }
+    },
+    "response_sha256": "8181447a7bcf1fc7b25fe15cc5343c7ec04a85e7f0994a82b79188c6d14697b9"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-05-01&end_date=2025-05-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:15.610823+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-05-01T00:00Z",
+    "end": "2025-05-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 87,
+        "max": 437
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 16.1,
+        "max": 204.4
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 28.1,
+        "max": 741.3
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 9.85
+      }
+    },
+    "response_sha256": "3db47663d6a84316ccf2b7d5429b8fa2510710fa792a285e905173b4b1438b0e"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-06-01&end_date=2025-06-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:16.732752+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-06-01T00:00Z",
+    "end": "2025-06-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 80,
+        "max": 306
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 12.0,
+        "max": 172.3
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 21.2,
+        "max": 711.5
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 10.25
+      }
+    },
+    "response_sha256": "1258e85d174b18784649b3e2f1ed17f11bb9c59d0d286c03f8787f0cebde685c"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-07-01&end_date=2025-07-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:18.258409+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-07-01T00:00Z",
+    "end": "2025-07-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 78,
+        "max": 194
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 13.0,
+        "max": 166.2
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 17.1,
+        "max": 722.7
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.7
+      }
+    },
+    "response_sha256": "cf18a93c6fc47991fb632af3a7eadaf088abea4aae4d52b47780389efa4a17e7"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-08-01&end_date=2025-08-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:19.486573+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-08-01T00:00Z",
+    "end": "2025-08-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 69,
+        "max": 185
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 10.6,
+        "max": 109.7
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 11.0,
+        "max": 223.1
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.9
+      }
+    },
+    "response_sha256": "1fde03d2ac4bf232405b655dfbfecaf3a1b4e8a9c957480ae83024f8e65045b6"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-09-01&end_date=2025-09-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:20.756442+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-09-01T00:00Z",
+    "end": "2025-09-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 69,
+        "max": 183
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 9.4,
+        "max": 115.9
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 9.4,
+        "max": 129.9
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 8.55
+      }
+    },
+    "response_sha256": "f21b25e56a013bc5af631811ca91647a1a3d06d52c161027c2e1cf4e3f2adfa3"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-10-01&end_date=2025-10-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:22.106999+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-10-01T00:00Z",
+    "end": "2025-10-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 88,
+        "max": 272
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 17.5,
+        "max": 291.5
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 20.7,
+        "max": 308.3
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 6.2
+      }
+    },
+    "response_sha256": "739f3ff73ba47ee764b1611cd4cf9189b6d08d217afb0b4b98daf6bc43dad3f9"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-11-01&end_date=2025-11-30&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:23.398197+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 720,
+    "start": "2025-11-01T00:00Z",
+    "end": "2025-11-30T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 720,
+        "missing": 0,
+        "min": 89,
+        "max": 288
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 12.7,
+        "max": 300.8
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 720,
+        "missing": 0,
+        "min": 14.3,
+        "max": 303.6
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 720,
+        "missing": 0,
+        "min": 0.0,
+        "max": 4.75
+      }
+    },
+    "response_sha256": "8974130d9e1b384a06ab562e39f90ec97f3e39482fb7da269bdb994500bb0699"
+  },
+  {
+    "city": "Faisalabad",
+    "source": "air_quality",
+    "data_kind": "CAMS archived model output (not a local station observation)",
+    "request_url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.41554&longitude=73.08969&start_date=2025-12-01&end_date=2025-12-31&hourly=us_aqi%2Cpm2_5%2Cpm10%2Cuv_index&timezone=UTC",
+    "retrieved_at_utc": "2026-11-18T14:59:24.650989+00:00",
+    "requested_coordinates": {
+      "latitude": 31.41554,
+      "longitude": 73.08969
+    },
+    "returned_coordinates": {
+      "latitude": 31.400002,
+      "longitude": 73.100006
+    },
+    "timezone": "UTC",
+    "row_count": 744,
+    "start": "2025-12-01T00:00Z",
+    "end": "2025-12-31T23:00Z",
+    "coverage": {
+      "us_aqi": {
+        "unit": "USAQI",
+        "available": 744,
+        "missing": 0,
+        "min": 139,
+        "max": 341
+      },
+      "pm2_5": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 24.7,
+        "max": 385.6
+      },
+      "pm10": {
+        "unit": "\u03bcg/m\u00b3",
+        "available": 744,
+        "missing": 0,
+        "min": 25.0,
+        "max": 390.2
+      },
+      "uv_index": {
+        "unit": "",
+        "available": 744,
+        "missing": 0,
+        "min": 0.0,
+        "max": 3.5
+      }
+    },
+    "response_sha256": "09f4cd9c52a72f82f74c3c0e98ed69c85a486340b98b62ec8a1b63e5a2964f17"
+  }
+]

@@ -1,0 +1,10 @@
+source,variable,rows,available,missing,longest_missing_hours,zero_hours,longest_zero_hours,min,max,mean,median,hard_bound_flags,review_bound_flags,longest_constant_hours,max_hourly_change,q1,q3,iqr_flags,unit
+weather,temperature_2m,26304,26304,0,0,0,0,2.3,45.4,24.958880778588806,26.5,0,0,5,8.599999999999998,18.4,31.8,0,°C
+weather,relative_humidity_2m,26304,26304,0,0,0,0,9,100,63.29740723844282,65.0,0,0,11,34,49.0,79.0,0,%
+weather,precipitation,26304,26304,0,0,24243,2051,0.0,17.8,0.05130778588807786,0.0,0,0,2051,9.6,,,,mm
+weather,wind_speed_10m,26304,26304,0,0,9,1,0.0,8.22,2.052614811435523,2.01,0,0,4,4.91,1.43,2.55,669,m/s
+weather,wind_direction_10m,26304,26304,0,0,0,0,1,360,,,0,0,4,180,,,,°
+air_quality,us_aqi,26304,26304,0,0,0,0,66,437,155.80980079075425,152.0,0,0,21,44,119.0,175.0,1492,USAQI
+air_quality,pm2_5,26304,26304,0,0,0,0,3.4,461.9,74.14881006690997,54.0,0,0,3,159.2,36.9,88.2,2283,μg/m³
+air_quality,pm10,26304,26304,0,0,0,0,3.4,741.3,108.64943734793188,86.1,0,0,3,282.2,58.0,137.4,1391,μg/m³
+air_quality,uv_index,26304,26304,0,0,13692,15,0.0,11.05,1.2911914537712896,0.0,0,0,15,4.6000000000000005,,,,

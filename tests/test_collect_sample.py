@@ -4,7 +4,10 @@ from copy import deepcopy
 from datetime import date, datetime, timedelta
 import importlib.util
 from pathlib import Path
+import io
+import ssl
 import unittest
+from unittest.mock import patch
 
 
 spec = importlib.util.spec_from_file_location(
@@ -58,6 +61,13 @@ class HourlyValidationTests(unittest.TestCase):
                 payload["hourly"]["uv_index"][0] = bad_value
                 with self.assertRaisesRegex(ValueError, "non-numeric"):
                     self.validate(payload)
+
+    def test_retries_interrupted_ssl_transfer(self):
+        with patch.object(collector, "urlopen", side_effect=[
+            ssl.SSLError("interrupted transfer"), io.StringIO('{"ok": true}')
+        ]) as request, patch.object(collector.time, "sleep"):
+            self.assertEqual(collector.fetch_json("https://example.com"), {"ok": True})
+            self.assertEqual(request.call_count, 2)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 ## Current decision
 
-Faisalabad is the preferred city. Initial samples from Open-Meteo contain the required weather variables, US AQI, and UV Index. The sources are candidates; full historical coverage and quality have not been established yet.
+Faisalabad remains the selected city for investigation. The full 2023-2025 UTC history from Open-Meteo contains all requested weather variables, US AQI, and UV Index with no missing hours or values. It passes coverage and basic bounds checks. Further EDA and source-comparability checks are needed before final modelling decisions. See the [full audit](HISTORICAL_AUDIT.md).
 
 The mentor allows any dataset with enough complete data for a Pakistani city, provided the chosen dataset and its processing are documented.
 
@@ -29,7 +29,7 @@ Checked on 18 November 2026. All periods below are inclusive and requested in UT
 | 1-7 January 2025 | 168 | 168 | 0 |
 | 1-7 July 2025 | 168 | 168 | 0 |
 
-This covers **504 distinct hourly timestamps per source**, spread across three weeks. It is a coverage sample, not a training dataset or a complete seasonal audit. The two source tables have not been merged.
+This covers **504 distinct hourly timestamps per source**, spread across three weeks. It is a coverage sample, not a training dataset or a complete seasonal audit. The sample tables remain separate. The later full-history audit aligns both sources into one local table without imputation.
 
 The collector checks the complete requested hourly grid, UTC offset, column lengths, unit metadata, and numeric values. Missing values remain missing. Five automated checks cover duplicate timestamps, misaligned columns, unexpected timezone offsets, invalid numbers, and preservation of missing values.
 
@@ -59,13 +59,13 @@ Rain probability is not an observed historical probability column in the weather
 - Exported hourly tables with city and explicit UTC timestamps.
 - Calculated missing-value counts and value ranges.
 
-No imputation, outlier removal, scaling, target creation, or model training has been performed. Zero rain and nighttime zero UV values were retained. Complete model output is not proof of measurement accuracy.
+The later full-history audit also aligns the two source tables by timestamp. No imputation, outlier removal, scaling, target creation, or model training has been performed. Zero rain and nighttime zero UV values were retained. Complete model output is not proof of measurement accuracy.
 
-## Checks before accepting a training dataset
+## Training dataset acceptance checks
 
-1. Audit the continuous period 1 January 2023 to 31 December 2025. This would contain 26,304 hourly timestamps, including the 2024 leap day, if complete.
-2. Measure coverage by field, month, and season; check duplicate hours and long gaps.
-3. Inspect physical bounds, outliers, repeated values, rain events, and AQI definitions. Investigate suspicious values rather than automatically deleting extremes.
+1. Completed: downloaded the continuous UTC period 1 January 2023 to 31 December 2025, with 26,304 hourly timestamps including the 2024 leap day.
+2. Completed: counted missing values and duplicate hours, checked monthly coverage, ranges, constant runs, and hourly changes. All requested values are present. Seasonal plots are still pending.
+3. Partially completed: physical/broad bounds checks passed; monthly statistical outlier counts and largest changes were recorded for review. Detailed EDA and examination of AQI definitions remain pending. No extremes were deleted.
 4. Check continuity across changes in the underlying air-quality model or AQI calculation.
 5. Establish suitable live inputs. Historical reanalysis can be revised and is not available immediately; archived model outputs must not be assumed to have been available at their valid time. Forecast features need a documented availability rule.
 6. Decide whether independent station observations are available for validation. If models are trained and tested against CAMS output, describe the results as forecasting that modelled series, not validated local sensor accuracy.

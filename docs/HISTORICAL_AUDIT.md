@@ -81,11 +81,11 @@ Monthly medians show different AQI levels across the year, but seasonality, weat
 
 ## 6. Decision and remaining work
 
-The dataset passes coverage, numeric structure, and the implemented bounds checks. **Keep Faisalabad and proceed to EDA.** This is not final approval for an operational training dataset.
+The dataset passes coverage, numeric structure, and the implemented bounds checks. **Keep Faisalabad.** The subsequent [EDA](EDA.md) examines distributions, time patterns, and unusual observations. Neither check is final approval for an operational training dataset.
 
 Before modelling:
 
-1. Plot daily/seasonal distributions for all metric groups, inspect flagged extremes and surrounding weather, and review rain-event counts.
+1. Completed in [EDA](EDA.md): daily/seasonal plots for all metric groups, surrounding weather for selected extremes, repeated timing checks, and rain-event counts. Follow-up source questions are documented there.
 2. Review AQI definitions, archived CAMS model changes, and possible discontinuities. Verify suitable live sources and their relationship to the historical series.
 3. Define the rain-event threshold used for probability modelling. Rain probability is an output to estimate, not an observed probability column in this dataset.
 4. Define wind direction encoding and calm-wind handling.
@@ -98,7 +98,8 @@ Before modelling:
 ```powershell
 python scripts/audit_history.py --download
 python scripts/audit_history.py
-python -m unittest discover -s tests -v
+python -m unittest discover -s tests -p "test_collect_sample.py" -v
+python -m unittest discover -s tests -p "test_audit_history.py" -v
 ```
 
 - [Machine-readable summary](audit_2023_2025/summary.json): coverage, units, bounds, and counts.

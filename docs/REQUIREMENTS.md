@@ -19,7 +19,7 @@ Statuses: **Done** means implemented and checked; **Partial** means some work ex
 | Historical and live data use the same feature pipeline | Pending | Reuse transformations after source normalization |
 | Targets shifted 24 hours ahead | Pending | Build target columns after quality decisions |
 | Newest 24 hours used only for forecasting | Pending | Exclude unlabelled records from training |
-| Thorough EDA for every metric | Partial | Coverage and quality audit; plots and relationships pending |
+| Thorough EDA for every metric | Done | [Executed notebook](../notebooks/01_faisalabad_eda.ipynb) and [EDA findings](EDA.md); source limitations and follow-up questions remain documented |
 | Statistical model: SARIMAX or Prophet | Pending | Fit and evaluate |
 | Classical model using scikit-learn | Pending | Ridge or Random Forest |
 | LSTM using TensorFlow or PyTorch | Pending | Sequence construction, training, evaluation |

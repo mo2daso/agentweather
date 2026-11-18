@@ -2,7 +2,7 @@
 
 ## Current decision
 
-Faisalabad remains the selected city for investigation. The full 2023-2025 UTC history from Open-Meteo contains all requested weather variables, US AQI, and UV Index with no missing hours or values. It passes coverage and basic bounds checks. Further EDA and source-comparability checks are needed before final modelling decisions. See the [full audit](HISTORICAL_AUDIT.md).
+Faisalabad remains the selected city for investigation. The full 2023-2025 UTC history from Open-Meteo contains all requested weather variables, US AQI, and UV Index with no missing hours or values. It passes coverage and basic bounds checks. [EDA](EDA.md) is complete for this candidate dataset, with source-comparability questions and unusual temperature timing still open. See the [full audit](HISTORICAL_AUDIT.md).
 
 The mentor allows any dataset with enough complete data for a Pakistani city, provided the chosen dataset and its processing are documented.
 
@@ -64,8 +64,8 @@ The later full-history audit also aligns the two source tables by timestamp. No 
 ## Training dataset acceptance checks
 
 1. Completed: downloaded the continuous UTC period 1 January 2023 to 31 December 2025, with 26,304 hourly timestamps including the 2024 leap day.
-2. Completed: counted missing values and duplicate hours, checked monthly coverage, ranges, constant runs, and hourly changes. All requested values are present. Seasonal plots are still pending.
-3. Partially completed: physical/broad bounds checks passed; monthly statistical outlier counts and largest changes were recorded for review. Detailed EDA and examination of AQI definitions remain pending. No extremes were deleted.
+2. Completed: counted missing values and duplicate hours, checked monthly coverage, ranges, constant runs, hourly changes, and seasonal/daily plots. All requested values are present.
+3. Completed exploratory review: physical/broad bounds checks passed; statistical flags and selected extreme events were examined in [EDA](EDA.md). The repeated temperature-jump timing and exact AQI plateau cause remain unresolved source questions. No extremes were deleted.
 4. Check continuity across changes in the underlying air-quality model or AQI calculation.
 5. Establish suitable live inputs. Historical reanalysis can be revised and is not available immediately; archived model outputs must not be assumed to have been available at their valid time. Forecast features need a documented availability rule.
 6. Decide whether independent station observations are available for validation. If models are trained and tested against CAMS output, describe the results as forecasting that modelled series, not validated local sensor accuracy.
@@ -79,7 +79,7 @@ Python 3.11 or later is sufficient; the collector uses the standard library and 
 
 ```powershell
 python scripts/collect_sample.py --start 2025-01-01 --end 2025-01-07
-python -m unittest discover -s tests -v
+python -m unittest discover -s tests -p "test_collect_sample.py" -v
 ```
 
 Downloads are stored under `data/samples/` and excluded from Git. Repeating the same request replaces that local sample, so preserve a copy before comparing provider revisions. Requests are limited to 31 days per invocation at this stage.

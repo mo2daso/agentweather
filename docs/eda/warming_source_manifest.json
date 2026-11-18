@@ -1,0 +1,5 @@
+{
+  "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.41554&longitude=73.08969&start_date=2025-01-26&end_date=2025-01-26&hourly=temperature_2m%2Crelative_humidity_2m&timezone=UTC&models=era5_land",
+  "retrieved_at_utc": "2026-11-18T15:22:37.642592+00:00",
+  "response_sha256": "738b57c144b11f9dd5472495781cfc2ea0f38f3bc715fb5f2605ef717b49ce74"
+}

@@ -15,4 +15,14 @@ The project will use historical weather and air-quality data to train models and
 
 ## Current status
 
-Initial repository setup is complete. The next step is to check historical data coverage for Faisalabad and build the data collection scripts. Models and the dashboard have not been built yet.
+A sample collector checks historical weather, AQI, and UV data for Faisalabad. Initial checks cover three weeks; the full training dataset has not been selected yet. See [dataset investigation](docs/DATASET.md) for sources and results.
+
+## Collect a sample
+
+Requires Python 3.11 or later. No additional packages or API key are needed.
+
+```powershell
+python scripts/collect_sample.py --start 2025-01-01 --end 2025-01-07
+```
+
+The script saves raw responses, hourly CSV files, and coverage summaries under `data/samples/`. Downloaded data stays out of Git.
